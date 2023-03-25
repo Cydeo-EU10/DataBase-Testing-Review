@@ -17,7 +17,7 @@ select EMPLOYEE_ID from JOB_HISTORY
 where EMPLOYEE_ID > 150;
 
 select FIRST_NAME, HIRE_DATE from EMPLOYEES
-where  EMPLOYEE_ID <> 111;
+where  EMPLOYEE_ID <> 111;  -- not equal
 
 select FIRST_NAME, SALARY from EMPLOYEES
 where SALARY >= 5000 and SALARY <= 10000;
