@@ -249,6 +249,12 @@ select Jobs.JOB_ID, START_DATE, MAX_SALARY
 from JOBS
          left outer join JOB_HISTORY on JOBS.JOB_ID = JOB_HISTORY.JOB_ID;
 
+-- join with where
+select Jobs.JOB_ID, START_DATE, MAX_SALARY
+from JOBS
+         left outer join JOB_HISTORY on JOBS.JOB_ID = JOB_HISTORY.JOB_ID
+where START_DATE is not null;
+
 
 -- right outer join
 select Jobs.JOB_ID, START_DATE, MAX_SALARY
@@ -261,3 +267,11 @@ select Jobs.JOB_ID, START_DATE, MAX_SALARY
 from JOBS
          full outer join JOB_HISTORY on JOBS.JOB_ID = JOB_HISTORY.JOB_ID;
 
+-- self join
+select e1.EMPLOYEE_ID, e1.FIRST_NAME, e1.EMAIL, e2.MANAGER_ID from EMPLOYEES e1
+join EMPLOYEES e2
+on e1.EMPLOYEE_ID = e2.MANAGER_ID;
+
+
+-- DDL
+-- creating table

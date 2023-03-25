@@ -74,9 +74,23 @@ select JOB_ID, avg(COMMISSION_PCT) from EMPLOYEES
 group by JOB_ID
 having avg(COMMISSION_PCT) > 0.2;
 
+-- 5. get me first name and department name in same table
+select FIRST_NAME, DEPARTMENT_NAME from EMPLOYEES
+inner join DEPARTMENTS
+on   DEPARTMENTS.DEPARTMENT_ID = EMPLOYEES.DEPARTMENT_ID;
 
+-- 6. get me job id and manager id in one table
+select JOB_ID, DEPARTMENTS.MANAGER_ID from EMPLOYEES
+inner join DEPARTMENTS on EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
 
+-- 7. get me department names and end date( if any employee quit)
+select DEPARTMENT_NAME, END_DATE from DEPARTMENTS
+left join JOB_HISTORY on DEPARTMENTS.DEPARTMENT_ID = JOB_HISTORY.DEPARTMENT_ID
+where END_DATE is not null ;
 
+--11.get me department name, city in same table
+select DEPARTMENT_NAME, CITY from DEPARTMENTS
+left join LOCATIONS L on L.LOCATION_ID = DEPARTMENTS.LOCATION_ID;
 
 
 
