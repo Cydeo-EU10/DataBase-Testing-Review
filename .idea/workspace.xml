@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23aaf5f3-4c26-46e5-8abd-b5ffd4e36ef4" name="Changes" comment="day2 is updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Queries/practice.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Queries/day2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Queries/day2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Queries/practice.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Queries/practice.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,8 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "oracle"
+      "oracle",
+      "mysql"
     ]
   }
 }]]></component>
@@ -63,7 +62,7 @@
       <updated>1679165352004</updated>
       <workItem from="1679165353223" duration="2624000" />
       <workItem from="1679265046113" duration="44000" />
-      <workItem from="1679750129418" duration="10974000" />
+      <workItem from="1679750129418" duration="11721000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1679165530922</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679759166358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day2 is updated">
+      <created>1679762760780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679762760780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

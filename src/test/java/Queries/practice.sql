@@ -52,6 +52,23 @@ WHERE EMAIL LIKE '___E__';
 SELECT LAST_NAME,HIRE_DATE FROM EMPLOYEES
 ORDER BY HIRE_DATE;
 
+-- 15. get me the count of manager_id from departments
+select count(MANAGER_ID) from EMPLOYEES;
+
+-- 19. get me maximum salary of each department_id
+select DEPARTMENT_ID, max(salary) from EMPLOYEES
+group by DEPARTMENT_ID
+order by max(SALARY);
+
+-- 21. get me salary information( min, max, sum, avg) of each job_id
+select JOB_ID, min(SALARY), max(SALARY), sum(SALARY), avg(SALARY) from EMPLOYEES
+group by JOB_ID;
+
+-- 23. get me department_id who has more than 10 employee
+select DEPARTMENT_ID, count(FIRST_NAME) from EMPLOYEES
+group by DEPARTMENT_ID
+having count(FIRST_NAME) > 10;
+
 
 
 
