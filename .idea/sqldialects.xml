@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/test/java/Queries/day1.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/src/test/java/Queries/day2.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Queries/practice.sql" dialect="Oracle" />
   </component>
 </project>

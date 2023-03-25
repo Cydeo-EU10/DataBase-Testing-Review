@@ -146,7 +146,27 @@ where ROWNUM < 11 ;
 
 -- string fucntions
 -- concatination
-select FIRST_NAME ||' ' || LAST_NAME from EMPLOYEES;
+select FIRST_NAME ||' '|| LAST_NAME from EMPLOYEES;
 
+-- lower or upper
+select FIRST_NAME from EMPLOYEES;
+select upper(FIRST_NAME) from EMPLOYEES;
+select lower(LAST_NAME) from EMPLOYEES;
+
+-- lenght
+select FIRST_NAME, length(FIRST_NAME) from EMPLOYEES
+where length(FIRST_NAME) < 6;
+
+-- substr
+select LAST_NAME, substr(LAST_NAME, 1,3) from EMPLOYEES;
+select CITY , substr(CITY,1,2) from LOCATIONS;
+
+-- intcap
+select initcap(lower(FIRST_NAME)) from EMPLOYEES;
+
+-- view
+create view email as select FIRST_NAME || '.' || LAST_NAME || '@gmail.com' as fullEmail from EMPLOYEES;
+
+select FIRST_NAME || '.' || LAST_NAME || '@gmail.com' from EMPLOYEES;
 
 
