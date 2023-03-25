@@ -69,6 +69,15 @@ select DEPARTMENT_ID, count(FIRST_NAME) from EMPLOYEES
 group by DEPARTMENT_ID
 having count(FIRST_NAME) > 10;
 
+-- 24. get me which job_id has average commission_pct over 20%
+select JOB_ID, avg(COMMISSION_PCT) from EMPLOYEES
+group by JOB_ID
+having avg(COMMISSION_PCT) > 0.2;
+
+
+
+
+
 
 
 
