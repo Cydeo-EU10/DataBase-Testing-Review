@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23aaf5f3-4c26-46e5-8abd-b5ffd4e36ef4" name="Changes" comment="day3 is updated&#10;JDBC is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBUtilityPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/FirstConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/FirstConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,7 @@
       <workItem from="1679165353223" duration="2624000" />
       <workItem from="1679265046113" duration="44000" />
       <workItem from="1679750129418" duration="17455000" />
-      <workItem from="1680357525894" duration="9401000" />
+      <workItem from="1680357525894" duration="9443000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1679165530922</created>
@@ -253,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680363935848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day3 is updated&#10;JDBC is added">
+      <created>1680367521043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680367521043</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
