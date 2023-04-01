@@ -1,5 +1,7 @@
 select COUNTRY_ID from COUNTRIES;
 
+select * from EMPLOYEES;
+
 select EMPLOYEE_ID, START_DATE, END_DATE, JOB_ID from JOB_HISTORY;
 
 select FIRST_NAME from EMPLOYEES;
