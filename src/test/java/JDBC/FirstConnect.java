@@ -37,5 +37,14 @@ public class FirstConnect {
         System.out.println(rs.getString("LAST_NAME"));
         System.out.println(rs.getInt(1));
 
+        System.out.println("***************************************");
+        rs.absolute(11);
+        System.out.println(rs.getString(2));
+
+        rs.beforeFirst();
+        System.out.println(rs.getString(2));
+
+
+
     }
 }
