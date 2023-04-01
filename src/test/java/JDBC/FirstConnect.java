@@ -26,11 +26,11 @@ public class FirstConnect {
         System.out.println(rs.getString("LAST_NAME"));
         System.out.println(rs.getInt(1));
 
-        while (rs.next()){ // start from 3rd row
-            System.out.println(rs.getString(2));
-            System.out.println(rs.getString("LAST_NAME"));
-            System.out.println(rs.getInt(1));
-        }
+//        while (rs.next()){ // start from 3rd row
+//            System.out.println(rs.getString(2));
+//            System.out.println(rs.getString("LAST_NAME"));
+//            System.out.println(rs.getInt(1));
+//        }
 
         rs.first();
         System.out.println(rs.getString(2));
@@ -41,9 +41,19 @@ public class FirstConnect {
         rs.absolute(11);
         System.out.println(rs.getString(2));
 
-        rs.beforeFirst();
-        System.out.println(rs.getString(2));
+//        rs.beforeFirst();
+//        System.out.println(rs.getString(2));
 
+        ResultSetMetaData rsmd = rs.getMetaData();
+        System.out.println(rsmd.getColumnCount());
+        System.out.println(rsmd.getColumnName(1));
+        System.out.println(rsmd.getColumnName(5));
+
+
+        DatabaseMetaData dbmd = conn.getMetaData();
+        System.out.println(dbmd.getUserName()); // hr
+        System.out.println(dbmd.getDriverName()); // oracle
+        System.out.println(dbmd.getDatabaseProductName());
 
 
     }

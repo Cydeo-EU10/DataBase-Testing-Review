@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23aaf5f3-4c26-46e5-8abd-b5ffd4e36ef4" name="Changes" comment="day3 is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/FirstConnect.java" afterDir="false" />
+    <list default="true" id="23aaf5f3-4c26-46e5-8abd-b5ffd4e36ef4" name="Changes" comment="day3 is updated&#10;JDBC is added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBUtilityPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Queries/day1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Queries/day1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Queries/day3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Queries/day3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/FirstConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/FirstConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/DataBase-Testing-Review/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle",
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\DataBase-Testing-Review\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DBUtilityPractice.test4">
     <configuration name="FirstConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.FirstConnect" />
       <module name="DataBase-Testing-Review" />
@@ -76,8 +82,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DBUtilityPractice.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataBase-Testing-Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtilityPractice" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBUtilityPractice.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataBase-Testing-Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtilityPractice" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBUtilityPractice.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataBase-Testing-Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtilityPractice" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBUtilityPractice.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataBase-Testing-Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtilityPractice" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DBUtilityPractice.test4" />
+        <item itemvalue="JUnit.DBUtilityPractice.test3" />
+        <item itemvalue="JUnit.DBUtilityPractice.test2" />
+        <item itemvalue="JUnit.DBUtilityPractice.test1" />
         <item itemvalue="Application.FirstConnect" />
       </list>
     </recent_temporary>
@@ -93,7 +167,7 @@
       <workItem from="1679165353223" duration="2624000" />
       <workItem from="1679265046113" duration="44000" />
       <workItem from="1679750129418" duration="17455000" />
-      <workItem from="1680357525894" duration="6014000" />
+      <workItem from="1680357525894" duration="9401000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1679165530922</created>
@@ -165,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680360320978</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day3 is updated&#10;JDBC is added">
+      <created>1680363792670</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680363792670</updated>
+    </task>
+    <task id="LOCAL-00012" summary="day3 is updated&#10;JDBC is added">
+      <created>1680363935848</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680363935848</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +265,7 @@
     <MESSAGE value="day1 is updated" />
     <MESSAGE value="day2 is updated" />
     <MESSAGE value="day3 is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3 is added" />
+    <MESSAGE value="day3 is updated&#10;JDBC is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3 is updated&#10;JDBC is added" />
   </component>
 </project>
